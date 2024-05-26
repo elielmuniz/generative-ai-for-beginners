@@ -1,0 +1,19 @@
+.devcontainer/environment.yml
+name: <environment-name>
+channels:
+ - defaults
+dependencies:
+- python=3
+- openai
+- python-dotenv
+
+conda env create --name ai4beg --file .devcontainer/environment.yml # .devcontainer sub path applies to only Codespace setups
+source activate ai4beg
+conda activate ai4beg
+conda env list
+
+local
+jupyter notebook
+jupyterhub
+
+
