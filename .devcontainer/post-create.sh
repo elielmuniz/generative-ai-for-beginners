@@ -9,3 +9,9 @@ pip install openai
 # (Python related dependencies are covered in requirements.txt)
 # echo "Installing OpenAI For Node.js" 
 # npm install --save openai
+
+#2024-05-29 elielmuniz@outlook.com
+conda env create --name ai4beg --file .devcontainer/environment.yml # .devcontainer sub path applies to only Codespace setups
+source activate ai4beg
+conda activate ai4beg
+conda env list
